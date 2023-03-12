@@ -1,0 +1,14 @@
+{
+  "name": "proyectos-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "project-custom": "./bin/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "proyectos-cli": "./",
+    "yargs": "^17.7.1"
+  }
+}
