@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 const yargs = require('yargs')
 
+const { htmlController } = require('./html.controller.js')
 const { reactController, viteReactController } = require('./react.controller.js')
 const { vueController, viteVueController } = require('./vue.controller.js')
 
@@ -65,6 +66,9 @@ const getArgs = () => {
 
 const initProject = ({ project, name, configured, admin }) => {
   switch(project) {
+    case 'html':
+      htmlController({ name })
+      break
     case 'react':
       reactController({ name, configured, admin })
       break

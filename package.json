@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "project-custom": "./bin/index.js"
+    "project-custom": "./bin/project-custom/index.js"
   },
   "dependencies": {
+    "fs-extra": "^11.1.0",
     "inquirer": "^9.1.4",
     "proyectos-cli": "./",
     "yargs": "^17.7.1"

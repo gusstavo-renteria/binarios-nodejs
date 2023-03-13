@@ -19,7 +19,7 @@ $ project-custom --help
 ---
 
 ### Lista de proyectos
-- [ ] html
+- [x] html
 - [x] react
 - [x] vue
 - [x] vite-react
